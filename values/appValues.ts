@@ -6,16 +6,6 @@ namespace appValues {
   export const fullName = `${firstName} ${lastName}`
 }
 
+// Note: surrounding appValues in brackets fixes the issue:
+// export default (appValues);
 export default appValues;
-
-// This works despite being roughly equivalent to the above namespace code.
-
-// const firstName = "Foo";
-
-// const lastName = "Bar";
-
-// const appValues = {
-//   fullName: `${firstName} ${lastName}`
-// }
-
-// export default appValues;
